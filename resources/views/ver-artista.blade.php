@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>El rincon del artista</title>
+		<title>{{$art->nombre}}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/css/main.css" />
@@ -18,7 +18,7 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
+					<header id="header">
 						<a href="{{route('inicio.artistas')}}" class="logo"><strong>El rincon</strong> <span>del artista</span></a>
 						<nav>
 							<a href="#menu">Menú</a>
@@ -29,73 +29,32 @@
 					<nav id="menu">
 						<ul class="links">
 							<li><a href="{{route('inicio.artistas')}}">Inicio</a></li>
-							<li><a href="landing.html">Canciones</a></li>
-							<li><a href="generic.html">Letras</a></li>
+							<li><a href="">Canciones</a></li>
+							<li><a href="">Letra</a></li>
 							<li><a href="#footer">Contacto</a></li>
 						</ul>
-						
 					</nav>
 
-				<!-- Banner -->
-					<section id="banner" class="major">
-						<div class="inner">
-							<header class="major">
-								<h1>Hola, ingresa al mundo de la música</h1>
-							</header>
-							<div class="content">
-								<p>Aquí encontraras toda la información <br />
-								de tus artistas favoritos</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">Descubre más</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
-
 				<!-- Main -->
-					<div id="main">
+					<div id="main" class="alt">
 
 						<!-- One -->
-							<section id="one" class="tiles">
-								@foreach($artistas as $artista)
-									<article>
-										<span class="image">
-											<img src="{{$artista['imagen']}}" alt="" />
-										</span>
-										<header class="major">
-											<h3><a href="{{route('ver.artista', $artista['id'])}}" class="link">{{$artista['nombre']}}</a></h3>
-											<p>{{$artista['id']}}</p>
-										</header>
-									</article>
-								@endforeach
-							</section>
-
-						<!-- Two -->
-							<section id="two">
+							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h2>Para Desarrolladores</h2>
+										<h1>{{$art->nombre}}</h1>
 									</header>
-									<p>La API web de El rincon del artista &copy; se basa en los principios REST. Se accede a los recursos de datos a través de solicitudes HTTPS estándar en formato UTF-8 a un punto final de API. Siempre que sea posible, Web API utiliza verbos HTTP apropiados para cada acción.</p>
-									<header class="major">
-										<h2>COMO CONSUMIR EL API</h2>
-									</header>
-									<p>Para consumir la api de artista tendras que copiar la url base del sitio y agregar lo siguiente</p>
-									<header class="major">
-									<h2>VER TODOS LOS ARTISTAS</h2>
-									<h3>/api/Artista</h3>
-									</header>
-									<header class="major">
-									<h2>VER ARTISTA POR ID</h2>
-									<h3>/api/verartista/"aqui va el numero del artista que deseas buscar"</h3>
-									</header>
+									<span class="image main"><img src="{{$art->imagen}}" alt="" /></span>
+									<p>{{$art->descripcion}}</p>
+									<p>Pais de origen: {{$art->pais}}</p>
+									<p>Alias: {{$art->alias}}</p>
 								</div>
 							</section>
 
 					</div>
 
 				<!-- Contact -->
-					<section id="contact">
+				<section id="contact">
 						<div class="inner">
 							<section>
 								<form method="post" action="#">
@@ -149,7 +108,7 @@
 					</section>
 
 				<!-- Footer -->
-					<footer id="footer">
+				<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
 								<li><a href="https://twitter.com/laravelphp" target="_blank" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>

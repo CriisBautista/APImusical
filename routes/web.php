@@ -14,11 +14,11 @@ use App\Http\Controllers\apiController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
-Route::get('/inicio', [apiController::class, 'artistas'])->name('inicio.artistas');
+Route::get('/', [apiController::class, 'artistas'])->name('inicio.artistas');
 
 Route::get('/artista/{id}', [apiController::class, 'vistaArtista'])->name('ver.artista');
 

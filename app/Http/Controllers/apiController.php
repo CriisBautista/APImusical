@@ -136,6 +136,36 @@ class apiController extends Controller
         
     }
 
+    /* public function canciones()
+    {
+        $cliente1=new \GuzzleHttp\Client();
+        $response1=$cliente1->request('get', 'https://musicapibhs.herokuapp.com/api/verCancion/1');//aitana
+        $datos1=json_decode($response1->getBody()->getContents(),true);
+
+        $array=array($datos1['cancion'])
+        //$can=[];
+
+        foreach ($array as $cancione)
+        {
+            $can[] = [
+                'id' => $cancione['id'],
+                'Titulo' => $cancione['Titulo'],
+                'Link' => $cancione['Link'],
+                'Duracion' => $cancione['Duracion'],
+                'Portada' => $cancione['Portada']
+
+            ];
+        }
+        
+       echo "<pre>";
+       print_r($can);
+       echo"</pre>";
+
+
+    } */
+
+
+
     
 
 }

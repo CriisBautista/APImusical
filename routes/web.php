@@ -21,6 +21,7 @@ use App\Http\Controllers\apiController;
 Route::get('/', [apiController::class, 'artistas'])->name('inicio.artistas');
 
 Route::get('/artista/{id}', [apiController::class, 'vistaArtista'])->name('ver.artista');
+Route::get('/canciones', [apiController::class, 'canciones'])->name('ver.cancion');
 
 
 

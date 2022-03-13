@@ -230,7 +230,7 @@ class artistaSeeder extends Seeder
             ],
             [
                 'nombre' => 'Canserbero',
-                'imagen' => 'https://static.wikia.nocookie.net/rap/images/5/5f/Canserbero_1.jpg/revision/latest?cb=20190324221912&path-prefix=es',
+                'imagen' => 'https://i.pinimg.com/474x/46/b8/06/46b8060b77fbc9610078b87df4e96f31.jpg',
                 'descripcion' => 'Canserbero (11 de marzo de 1988- 20 de enero de 2015) rapero, cantante, compositor y activista. Nació en Caracas, Maracay, Venezuela. Fue bautizado Tirone José González Orama. Sus padres son José Rafael González Ollarves y Leticia Orama.',
                 'pais' => 'Venezuela',
                 'alias' => 'Tirone José González Orama',
@@ -250,7 +250,7 @@ class artistaSeeder extends Seeder
             ],
             [
                 'nombre' => 'Farruko',
-                'imagen' => 'https://sites.google.com/site/blogdefarruko/_/rsrc/1415200154001/home/farukobesaas.jpg',
+                'imagen' => 'https://sites.google.com/site/blogdefarruko/_/rsrc/1415200338409/home/740432.jpg',
                 'descripcion' => 'Farruko (Carlos Efrén Reyes Rosado) es un cantante y compositor de música urbana, reggaetón, rap y hip-hop, así como de pop, bachata y vallenato, entre otros ritmos latinoamericanos. Nació en Bayamón, Puerto Rico, el 2 mayo de 1991.',
                 'pais' => 'Puerto Rico',
                 'alias' => 'Carlos Efrén Reyes Rosado',

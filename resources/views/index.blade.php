@@ -29,8 +29,8 @@
 					<nav id="menu">
 						<ul class="links">
 							<li><a href="{{route('inicio.artistas')}}">Inicio</a></li>
-							<li><a href="landing.html">Canciones</a></li>
-							<li><a href="generic.html">Letras</a></li>
+							<li><a href="{{route('ver.cancion')}}">Canciones</a></li>
+							<li><a href="">Letras</a></li>
 							<li><a href="#footer">Contacto</a></li>
 						</ul>
 						
@@ -98,7 +98,7 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#">
+								<form method="post" action="mailto:cesaryairlopez48@gmail.com">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Nombre</label>

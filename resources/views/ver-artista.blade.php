@@ -29,7 +29,7 @@
 					<nav id="menu">
 						<ul class="links">
 							<li><a href="{{route('inicio.artistas')}}">Inicio</a></li>
-							<li><a href="">Canciones</a></li>
+							<li><a href="{{route('ver.cancion')}}">Canciones</a></li>
 							<li><a href="">Letra</a></li>
 							<li><a href="#footer">Contacto</a></li>
 						</ul>
@@ -48,6 +48,9 @@
 									<p>{{$art->descripcion}}</p>
 									<p>Pais de origen: {{$art->pais}}</p>
 									<p>Alias: {{$art->alias}}</p>
+									<ul class="actions">
+									<li><a href="{{route('ver.cancion')}}" class="button next scrolly">Ver Canciones</a></li>
+								</ul>
 								</div>
 							</section>
 
@@ -57,7 +60,7 @@
 				<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#">
+								<form method="post" action="mailto:cesaryairlopez48@gmail.com">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Nombre</label>

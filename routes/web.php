@@ -18,10 +18,13 @@ use App\Http\Controllers\apiController;
 //    return view('welcome');
 //});
 
-Route::get('/', [apiController::class, 'artistas'])->name('inicio.artistas');
 
+Route::get('/', [apiController::class, 'artistas'])->name('inicio.artistas');
 Route::get('/artista/{id}', [apiController::class, 'vistaArtista'])->name('ver.artista');
 Route::get('/canciones', [apiController::class, 'canciones'])->name('ver.cancion');
+
+
+
 
 
 

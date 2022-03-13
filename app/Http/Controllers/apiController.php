@@ -124,7 +124,18 @@ class apiController extends Controller
        //echo "<pre>";
        //print_r($artistas);
        //echo"</pre>";
-        return view('index',['artistas' => $artistas]);
+        
+
+        if($artistas)
+        {
+            return view('index',['artistas' => $artistas]);
+        }
+        else
+        {
+            return view('404');
+        }
+
+        
 
     }
 
@@ -132,40 +143,51 @@ class apiController extends Controller
         
         $art = Artist::where('id_alter',$id_alter)->first();
 
-        return view('ver-artista', ['art' => $art]);
+        if($art)
+        {
+            return view('ver-artista', ['art' => $art]);
+        }
+        else
+        {
+            return view('404');
+        }
         
     }
 
-    /* public function canciones()
+
+    public function canciones()
     {
         $cliente1=new \GuzzleHttp\Client();
-        $response1=$cliente1->request('get', 'https://musicapibhs.herokuapp.com/api/verCancion/1');//aitana
+        $response1=$cliente1->request('get', 'https://musicapibhs.herokuapp.com/api/canciones');//cancion 1 
         $datos1=json_decode($response1->getBody()->getContents(),true);
+        
+        $can = [];
 
-        $array=array($datos1['cancion'])
-        //$can=[];
-
-        foreach ($array as $cancione)
+        foreach ($datos1['cancion'] as $cancione)
         {
             $can[] = [
-                'id' => $cancione['id'],
-                'Titulo' => $cancione['Titulo'],
-                'Link' => $cancione['Link'],
-                'Duracion' => $cancione['Duracion'],
-                'Portada' => $cancione['Portada']
+                'ide' => $cancione['id'],
+                'titulo' => $cancione['Titulo'],
+                'link' => $cancione['Link'],
+                'duracion' => $cancione['Duracion'],
+                'portada' => $cancione['Portada']
 
             ];
         }
+
+       /*  echo "<pre>";
+        print_r($can);
+        echo"</pre>"; */
+
+        if($datos1)
+        {
+            return view('canciones', ['can'=>$can]);
+        }
+        else
+        {
+            return view('404');
+        }
         
-       echo "<pre>";
-       print_r($can);
-       echo"</pre>";
-
-
-    } */
-
-
-
-    
+    }    
 
 }

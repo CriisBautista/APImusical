@@ -25,7 +25,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Inglaterra',
                 'alias' => 'John Lennon, Paul McCartney, George Harrison y Ringo Starr',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'1'
             ],
             [
                 'nombre' => 'The Rolling Stones',
@@ -34,7 +35,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Inglaterra',
                 'alias' => 'Mick Jagger y el guitarrista Keith Richards',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'11'
             ],
             [
                 'nombre' => 'Radiohead',
@@ -43,7 +45,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Inglaterra',
                 'alias' => '',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'399'
             ],
             [
                 'nombre' => 'The Who',
@@ -52,7 +55,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Inglaterra',
                 'alias' => 'Roger Daltrey, Pete Townshend, John Entwistle y Keith Moon.',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'817'
             ],
             [
                 'nombre' => 'The Weeknd',
@@ -61,7 +65,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Estados Unidos',
                 'alias' => 'Abel Makkonen Tesfaye',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'4050205'
             ],
             [
                 'nombre' => 'Billie Eilish',
@@ -70,7 +75,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Estados Unidos',
                 'alias' => 'Pirate Baird OConnell',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'9635624'
             ],
             [
                 'nombre' => 'Drake',
@@ -79,7 +85,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Estados Unidos',
                 'alias' => 'Aubrey Drake Graham',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'246791'
             ],
             [
                 'nombre' => 'Halsey',
@@ -88,7 +95,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Estados Unidos',
                 'alias' => 'Ashley Nicolette Frangipane',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'5292512'
             ],
             [
                 'nombre' => 'Adele',
@@ -97,7 +105,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Inglaterra',
                 'alias' => 'Adele Laurie Blue Adkins',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'75798'
             ],
             [
                 'nombre' => 'Juice WRLD',
@@ -106,7 +115,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Estados Unidos',
                 'alias' => 'Jarad Anthony Higgins',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'14456487'
             ],
             [
                 'nombre' => 'Duki',
@@ -115,7 +125,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Argentina',
                 'alias' => 'Mauro Ezequiel Lombardo ',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'4902904'
             ],
             [
                 'nombre' => 'Marcianeke',
@@ -124,7 +135,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Chile',
                 'alias' => 'Matías Muñoz',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'56505532'
             ],
             [
                 'nombre' => 'Banda MS de Sergio Lizárraga.',
@@ -133,7 +145,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Mexico',
                 'alias' => '',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'50683152'
             ],
             [
                 'nombre' => 'Christian Nodal.',
@@ -142,7 +155,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Mexico',
                 'alias' => 'Christian Jesús González Nodal.',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'9763952'
             ],
             [
                 'nombre' => 'Grupo Firme',
@@ -151,7 +165,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Mexico',
                 'alias' => '',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'9896010'
             ],
             [
                 'nombre' => 'Calibre 50',
@@ -160,7 +175,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Mexico',
                 'alias' => '',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'1530946'
             ],
             [
                 'nombre' => 'Maluma',
@@ -169,7 +185,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Colombia',
                 'alias' => 'Juan Luis Londoño Arias',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'1424602'
             ],
             [
                 'nombre' => 'JBalvin',
@@ -178,7 +195,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Colombia',
                 'alias' => 'José Álvaro Osorio Balvín,',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'4860761'
             ],
             [
                 'nombre' => 'Luis Miguel',
@@ -187,7 +205,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Puerto Rico',
                 'alias' => 'Luis Miguel Gallego Basteri',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'6123'
             ],
             [
                 'nombre' => 'Mon Laferte',
@@ -196,7 +215,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Chile',
                 'alias' => 'Norma Monserrat Bustamante Laferte',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'5284515'
             ],
             [
                 'nombre' => 'Cami',
@@ -205,7 +225,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Chile',
                 'alias' => 'Camila Anastasia Gallardo Montalva',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'144635'
             ],
             [
                 'nombre' => 'Canserbero',
@@ -214,7 +235,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Venezuela',
                 'alias' => 'Tirone José González Orama',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'7180398'
             ],
             [
                 'nombre' => 'Aitana',
@@ -223,7 +245,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'España',
                 'alias' => 'Aitana Ocaña Morales',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'11928391'
             ],
             [
                 'nombre' => 'Farruko',
@@ -232,7 +255,8 @@ class artistaSeeder extends Seeder
                 'pais' => 'Puerto Rico',
                 'alias' => 'Carlos Efrén Reyes Rosado',
                 'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'updated_at' => date('Y-m-d H:i:s'),
+                'id_alter'=>'614223'
             ]
 
         ]);

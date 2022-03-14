@@ -190,4 +190,29 @@ class apiController extends Controller
         
     }    
 
+    public function letras()
+    {
+        $cliente1=new \GuzzleHttp\Client();
+        $response1=$cliente1->request('get', 'https://apiletrascanciones.herokuapp.com/api/Canciones');//cancion 1 
+        $datos1=json_decode($response1->getBody()->getContents(),true);
+
+        $letra = [];
+
+        foreach ($datos1['data'] as $letras)
+        {
+            $letra[] = [
+                'ide' => $letras['id'],
+                'Cantante' => $letras['cantante'],
+                'Nombre_cancion' => $letras['nombrecancion'],
+                'Letra' => $letras['letra'],
+            ];
+        }
+
+        /* echo "<pre>";
+        print_r($letra);
+        echo"</pre>";  */
+
+        return view('letras', ['letra'=>$letra]);
+    }
+
 }

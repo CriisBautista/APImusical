@@ -31,7 +31,7 @@
 						<ul class="links">
 							<li><a href="{{route('inicio.artistas')}}">Inicio</a></li>
 							<li><a href="{{route('ver.cancion')}}">Canciones</a></li>
-							<li><a href="">Letra</a></li>
+							<li><a href="{{route('ver.letra')}}">Letra</a></li>
 							<li><a href="#footer">Contacto</a></li>
 						</ul>
 					</nav>

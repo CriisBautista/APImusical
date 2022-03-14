@@ -31,7 +31,7 @@
 						<ul class="links">
 							<li><a href="{{route('inicio.artistas')}}">Inicio</a></li>
 							<li><a href="{{route('ver.cancion')}}">Canciones</a></li>
-							<li><a href="">Letra</a></li>
+							<li><a href="{{route('ver.letra')}}">Letra</a></li>
 							<li><a href="#footer">Contacto</a></li>
 						</ul>
 					</nav>
@@ -74,7 +74,7 @@
 											<p>Duracion: {{$cancion['duracion']}}</p>
 											<p>{{$cancion['link']}}</p>
 											<ul class="actions">
-												<li><a href="" class="button">Ver letras</a></li>
+												<li><a href="{{route('ver.letra')}}" class="button">Ver letras</a></li>
 											</ul>
 										</div>
 									</div>
